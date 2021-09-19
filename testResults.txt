@@ -1,0 +1,31 @@
+
+Emulating Finite Automaton #0
+There is 3 States and 3 Symbols.
+States: [s, i, e]
+Symbols: [a, 1, 0]
+State Chart: [[2, 1, 1], [2, 1, 1], [2, 2, 2]]
+Final States: [false, true, false]
+The word being tested: 010101
+Current State: s saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+Current State: i saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+Current State: i saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+The word: 010101 for this Automaton was Accepted
+
+Emulating Finite Automaton #1
+There is 3 States and 3 Symbols.
+States: [s, i, e]
+Symbols: [a, 0, 1]
+State Chart: [[2, 1, 1], [2, 1, 1], [2, 2, 2]]
+Final States: [false, true, false]
+The word being tested: 010101a
+Current State: s saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+Current State: i saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+Current State: i saw Symbol 0 and is heading to State: i
+Current State: i saw Symbol 1 and is heading to State: i
+Current State: i saw Symbol a and is heading to State: e
+The word: 010101a for this Automaton was Rejected
