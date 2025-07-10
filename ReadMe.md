@@ -57,4 +57,42 @@ This is the **main executable file** that:
 ---
 
 ## 💻 Example Output Snippet
+* Emulating Finite Automaton #0
+* There is 3 States and 4 Symbols.
+* States: [s, c, e]
+* Symbols: [a, A, +, -]
+* State Chart: [[3, 3, 2, 3], [3, 2, 2, 2], [3, 3, 3, 3]]
+* Final States: [false, true, false]
+* The word being tested: Aa-
+* Current State: s saw Symbol A and is heading to State: c
+* Current State: c saw Symbol a and is heading to State: e
+* ...
+* The word: Aa- for this Automaton was Rejected
+
+
+
+---
+
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| `finiteAutomaton.java` | The class definition for building and simulating automatons |
+| `runAutomaton.java` | The main class that handles user input, validation, and running simulations |
+| `testResults.txt` | Output file where all emulation results are written |
+
+---
+
+## 📜 License
+
+MIT License © 2021 Jesus Macias  
+This was a university assignment — feel free to use this as a reference for learning finite automata concepts or Java file handling.
+
+---
+
+## 🙏 Acknowledgment
+
+This project was created for **CS 3350: Theory of Automata** under the instruction of **Dr. Vladik Kreinovich** at UTEP.
+
+
 
